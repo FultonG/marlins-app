@@ -1,0 +1,120 @@
+.tile {
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.leagueContainer {
+  margin-bottom: 12px;
+}
+
+.league {
+  font-weight: bold;
+  font-size: 14px;
+  color: #0061f2;
+}
+
+.teamHeader {
+  margin-bottom: 12px;
+}
+
+.teamInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teamName {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #333333;
+  flex-grow: 1;
+}
+
+.opponentStatus {
+  font-size: 14px;
+  color: #333333;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.vsText {
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+.opponentName {
+  color: #0061f2;
+}
+
+.opponentParent {
+  font-size: 12px;
+  color: #888888;
+  margin-left: 6px;
+}
+
+.noGameText {
+  color: #888888;
+  font-style: italic;
+}
+
+.gameDetails {
+  margin-top: 12px;
+}
+
+.timeAndVenue {
+  font-size: 14px;
+  color: #595959;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.gameTime {
+  font-weight: bold;
+}
+
+.venue {
+  font-style: italic;
+}
+
+.gameStateContainer {
+  margin-top: 8px;
+}
+
+.gameState {
+  font-size: 14px;
+  font-style: italic;
+  color: #777777;
+}
+
+.gameState.scheduled {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.gameState.final {
+  color: #28a745;
+}
+
+.gameState.ongoing {
+  color: #ffc107;
+}
